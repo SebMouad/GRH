@@ -120,11 +120,3 @@ curl -X PUT http://localhost:3000/api/leaves/update-status \
 - **Commande `curl`:**
 
 curl http://localhost:3000/api/leaves
-
-## Déploiement
-
-Pour déployer cette API sur Vercel :
-
-1. Connectez votre compte Vercel à votre dépôt GitHub.
-2. Configurez les variables d'environnement sur Vercel.
-3. Déployez le projet à partir de la branche principale.
