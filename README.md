@@ -21,9 +21,9 @@ DB_DATABASE=defaultdb
 
 Clonez le dépôt et installez les dépendances :
 
-git clone https://github.com/sebmouad/GRH.git
-cd GRH/Backend
-npm install
+git clone https://github.com/sebmouad/GRH.git 
+cd GRH/Backend 
+npm install 
 
 ## Tester l'API avec `curl`
 
