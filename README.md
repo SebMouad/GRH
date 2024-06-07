@@ -1,11 +1,25 @@
 
 # Gestion des Ressources Humaines (GRH)
 
-Cette API permet de gérer les employés et les demandes de congé pour une entreprise.
+Cette APP permet de gérer les employés et les demandes de congé pour une entreprise.
 
-## Prérequis
+Développé par Mouad Sebhaoui, Amine Fouad, Abdelkebir El Azzouzi pour le contrôle fin du module React à l'école ISMAGI L3DEV CW, encadré par Mr Zakaria Mohammadi.
 
-Assurez-vous que le serveur est en cours d'exécution.
+## Url de l'application
+
+https://grh-ismagi.vercel.app/
+
+email: janedoe@example.com
+
+role: admin
+
+password: 123
+
+email: hamid@example.com
+
+role: employee
+
+password": password123
 
 ## Variables d'Environnement
 
@@ -27,21 +41,12 @@ Frontend :
 
 REACT_APP_API_BASE_URL=https://grh-api.vercel.app/api
 
-## Installation
-
-Clonez le dépôt et installez les dépendances :
-
-git clone https://github.com/sebmouad/GRH.git 
-cd GRH/Backend 
-npm install 
-
 ## Tester l'API avec `curl`
 
 ### Ajouter un Employé
 
 - **URL:** `https://grh-api.vercel.app/api/employees/add`
 - **Méthode:** POST
-- **Commande `curl`:**
 
 curl -X POST https://grh-api.vercel.app/api/employees/add \
 -H "Content-Type: application/json" \
@@ -58,7 +63,6 @@ curl -X POST https://grh-api.vercel.app/api/employees/add \
 
 - **URL:** `https://grh-api.vercel.app/api/employees/update`
 - **Méthode:** PUT
-- **Commande `curl`:**
 
 curl -X PUT https://grh-api.vercel.app/api/employees/update \
 -H "Content-Type: application/json" \
@@ -76,7 +80,6 @@ curl -X PUT https://grh-api.vercel.app/api/employees/update \
 
 - **URL:** `https://grh-api.vercel.app/api/employees/delete/1`
 - **Méthode:** DELETE
-- **Commande `curl`:**
 
 curl -X DELETE https://grh-api.vercel.app/api/employees/delete/1
 
@@ -84,7 +87,6 @@ curl -X DELETE https://grh-api.vercel.app/api/employees/delete/1
 
 - **URL:** `https://grh-api.vercel.app/api/employees/1`
 - **Méthode:** GET
-- **Commande `curl`:**
 
 curl https://grh-api.vercel.app/api/employees/1
 
@@ -92,7 +94,6 @@ curl https://grh-api.vercel.app/api/employees/1
 
 - **URL:** `https://grh-api.vercel.app/api/employees`
 - **Méthode:** GET
-- **Commande `curl`:**
 
 curl https://grh-api.vercel.app/api/employees
 
@@ -100,7 +101,6 @@ curl https://grh-api.vercel.app/api/employees
 
 - **URL:** `https://grh-api.vercel.app/api/leaves/request`
 - **Méthode:** POST
-- **Commande `curl`:**
 
 curl -X POST https://grh-api.vercel.app/api/leaves/request \
 -H "Content-Type: application/json" \
@@ -114,7 +114,6 @@ curl -X POST https://grh-api.vercel.app/api/leaves/request \
 
 - **URL:** `https://grh-api.vercel.app/api/leaves/update-status`
 - **Méthode:** PUT
-- **Commande `curl`:**
 
 curl -X PUT https://grh-api.vercel.app/api/leaves/update-status \
 -H "Content-Type: application/json" \
@@ -127,6 +126,5 @@ curl -X PUT https://grh-api.vercel.app/api/leaves/update-status \
 
 - **URL:** `https://grh-api.vercel.app/api/leaves`
 - **Méthode:** GET
-- **Commande `curl`:**
 
 curl https://grh-api.vercel.app/api/leaves
