@@ -51,15 +51,6 @@ const LoginForm = ({ onLogin }) => {
         </button>
       </div>
     </form>
-    <pre style={{fontSize: 12}}>
-        "email": "janedoe@example.com",<br />
-        "role": "admin",<br />
-        "password": "123",<br />
-        _______________________________<br />
-        "email": "hamid@example.com",<br />
-        "role": "employee",<br />
-        "password": "password123",<br />
-    </pre>
     <Footer />
     </>
   );
