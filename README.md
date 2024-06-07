@@ -14,9 +14,13 @@ Ajoutez les variables d'environnement suivantes à un fichier `.env` :
 Backend :
 
 DB_HOST=mysql-1022bd89-gestion-rh.g.aivencloud.com
+
 DB_PORT=21379
+
 DB_USER=avnadmin
+
 DB_PASSWORD=AVNS_e6LuKtqbRUj82Gv1JNn
+
 DB_DATABASE=defaultdb
 
 Frontend :
