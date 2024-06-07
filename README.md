@@ -29,11 +29,11 @@ npm install
 
 ### Ajouter un Employé
 
-- **URL:** `https://grh-ashy.vercel.app/api/employees/add`
+- **URL:** `https://grh-api.vercel.app/api/employees/add`
 - **Méthode:** POST
 - **Commande `curl`:**
 
-curl -X POST https://grh-ashy.vercel.app/api/employees/add \
+curl -X POST https://grh-api.vercel.app/api/employees/add \
 -H "Content-Type: application/json" \
 -d '{
   "name": "John Doe",
@@ -46,11 +46,11 @@ curl -X POST https://grh-ashy.vercel.app/api/employees/add \
 
 ### Modifier un Employé
 
-- **URL:** `https://grh-ashy.vercel.app/api/employees/update`
+- **URL:** `https://grh-api.vercel.app/api/employees/update`
 - **Méthode:** PUT
 - **Commande `curl`:**
 
-curl -X PUT https://grh-ashy.vercel.app/api/employees/update \
+curl -X PUT https://grh-api.vercel.app/api/employees/update \
 -H "Content-Type: application/json" \
 -d '{
   "id": 1,
@@ -64,35 +64,35 @@ curl -X PUT https://grh-ashy.vercel.app/api/employees/update \
 
 ### Supprimer un Employé
 
-- **URL:** `https://grh-ashy.vercel.app/api/employees/delete/1`
+- **URL:** `https://grh-api.vercel.app/api/employees/delete/1`
 - **Méthode:** DELETE
 - **Commande `curl`:**
 
-curl -X DELETE https://grh-ashy.vercel.app/api/employees/delete/1
+curl -X DELETE https://grh-api.vercel.app/api/employees/delete/1
 
 ### Obtenir les Informations d'un Employé
 
-- **URL:** `https://grh-ashy.vercel.app/api/employees/1`
+- **URL:** `https://grh-api.vercel.app/api/employees/1`
 - **Méthode:** GET
 - **Commande `curl`:**
 
-curl https://grh-ashy.vercel.app/api/employees/1
+curl https://grh-api.vercel.app/api/employees/1
 
 ### Obtenir Tous les Employés
 
-- **URL:** `https://grh-ashy.vercel.app/api/employees`
+- **URL:** `https://grh-api.vercel.app/api/employees`
 - **Méthode:** GET
 - **Commande `curl`:**
 
-curl https://grh-ashy.vercel.app/api/employees
+curl https://grh-api.vercel.app/api/employees
 
 ### Demander un Congé
 
-- **URL:** `https://grh-ashy.vercel.app/api/leaves/request`
+- **URL:** `https://grh-api.vercel.app/api/leaves/request`
 - **Méthode:** POST
 - **Commande `curl`:**
 
-curl -X POST https://grh-ashy.vercel.app/api/leaves/request \
+curl -X POST https://grh-api.vercel.app/api/leaves/request \
 -H "Content-Type: application/json" \
 -d '{
   "employee_id": 1,
@@ -102,11 +102,11 @@ curl -X POST https://grh-ashy.vercel.app/api/leaves/request \
 
 ### Mettre à Jour le Statut d'une Demande de Congé
 
-- **URL:** `https://grh-ashy.vercel.app/api/leaves/update-status`
+- **URL:** `https://grh-api.vercel.app/api/leaves/update-status`
 - **Méthode:** PUT
 - **Commande `curl`:**
 
-curl -X PUT https://grh-ashy.vercel.app/api/leaves/update-status \
+curl -X PUT https://grh-api.vercel.app/api/leaves/update-status \
 -H "Content-Type: application/json" \
 -d '{
   "id": 1,
@@ -115,8 +115,8 @@ curl -X PUT https://grh-ashy.vercel.app/api/leaves/update-status \
 
 ### Obtenir Toutes les Demandes de Congé
 
-- **URL:** `https://grh-ashy.vercel.app/api/leaves`
+- **URL:** `https://grh-api.vercel.app/api/leaves`
 - **Méthode:** GET
 - **Commande `curl`:**
 
-curl https://grh-ashy.vercel.app/api/leaves
+curl https://grh-api.vercel.app/api/leaves
