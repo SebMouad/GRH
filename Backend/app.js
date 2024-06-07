@@ -1,9 +1,12 @@
 const express = require('express');
+const cors = require('cors');
 const bodyParser = require('body-parser');
 const employeeRoutes = require('./routes/employees');
 const leaveRoutes = require('./routes/leaves');
 
 const app = express();
+
+app.use(cors());
 
 app.use(bodyParser.json());
 
