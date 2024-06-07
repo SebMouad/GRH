@@ -5,21 +5,13 @@ Cette APP permet de gérer les employés et les demandes de congé pour une entr
 
 Développé par Mouad Sebhaoui, Amine Fouad, Abdelkebir El Azzouzi pour le contrôle fin du module React à l'école ISMAGI L3DEV CW, encadré par Mr Zakaria Mohammadi.
 
-## Url de l'application
+## Demo de l'application
 
-https://grh-ismagi.vercel.app/
+URL: https://grh-ismagi.vercel.app/
 
-email: janedoe@example.com
+email: janedoe@example.com / role: admin / password: 123
 
-role: admin
-
-password: 123
-
-email: hamid@example.com
-
-role: employee
-
-password": password123
+email: hamid@example.com / role: employee / password: password123
 
 ## Variables d'Environnement
 
